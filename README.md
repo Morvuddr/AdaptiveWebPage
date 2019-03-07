@@ -1,0 +1,2 @@
+# AdaptiveWebPage
+Adaptive web-page
