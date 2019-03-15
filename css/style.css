@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    height: 100%;
+}
 a{
     text-decoration: none;
 }
@@ -10,7 +13,13 @@ li{
     list-style: none;
 }
 body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
     font-family: 'Raleway', sans-serif;
+}
+main{
+    flex: 1;
 }
 .logo{
     background: #000000;
@@ -72,7 +81,7 @@ footer{
     background: #000000;
     margin: 0 auto;
     text-align: center;
-    padding-top: 25px;
+    padding: 25px;
 }
 footer a{
     color: white;
