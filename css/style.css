@@ -155,7 +155,8 @@ footer nav a:hover{
         margin-left: 10px;
     }
 }
-@media screen and (max-width: 420px){
+
+@media screen and (max-width: 500px){
     .advantages{
         flex-direction: column;
     }
