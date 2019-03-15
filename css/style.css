@@ -17,6 +17,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 5pt;
 }
 .graphiclogo{
     padding: 5%;
@@ -45,8 +46,14 @@ nav{
 .topnav .icon{
     display: none;
 }
+.picture{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .mw-100{
     max-width: 100%;
+   
 }
 .advantages__container{
     display: flex;
@@ -64,6 +71,33 @@ nav{
 .advantages__items{
     width: 30%;
     word-wrap: break-word;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #000000;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+footer a{
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+footer p{
+    color: white;
+}
+footer nav a:hover{
+    border-bottom: 1px solid white;
+}
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.social img:hover{
+    background: #494949;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 768px){
