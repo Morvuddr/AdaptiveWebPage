@@ -46,14 +46,8 @@ nav{
 .topnav .icon{
     display: none;
 }
-.picture{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 .mw-100{
-    max-width: 100%;
-   
+    width: 100%;
 }
 .advantages__container{
     display: flex;
@@ -99,6 +93,24 @@ footer nav a:hover{
     background: #494949;
     border-radius: 50%;
 }
+.gallery{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.photo-item{
+    width: 25%;
+}
+.photo-item img{
+    box-sizing: border-box;
+    max-width: 100%;
+    opacity: 0.8;
+}
+.photo-item img:hover{
+    opacity: 1;
+}
 
 @media screen and (max-width: 768px){
     .topnav a:not(:first-child) {
@@ -129,6 +141,10 @@ footer nav a:hover{
     .advantages__items{
         width: 45%;
     }
+    .photo-item{
+        width: 45%;
+        margin-left: 10px;
+    }
 }
 @media screen and (max-width: 420px){
     .advantages{
@@ -136,5 +152,18 @@ footer nav a:hover{
     }
     .advantages__items{
         width: 100%;
+    }
+    .project{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .gallery{
+        width: auto;
+        margin: auto;
+    }
+    .photo-item{
+        width: 70%;
+        margin: 0 auto;
     }
 }
