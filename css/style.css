@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.logo{
+    background: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.graphiclogo{
+    padding: 5%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
